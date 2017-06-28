@@ -1,0 +1,50 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Revalia" rel="stylesheet">
+  <audio id="buzzer" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpeg"></audio>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="pomodoro-javascript.js"></script>
+  <link rel="stylesheet" type="text/css" href="pomodoro-style.css">
+  <title> Pomodoro Clock </title>
+
+</head>
+
+<h1> pomodoro clock</h1>
+<div class = "outer">
+  <div class="inner" id = "workDiv">
+  <a href = "#" id="plusWork">
+    <i class="fa fa-sort-asc" aria-hidden="true"></i>
+  </a>
+ <br> <span id="workTime">25</span>:00<br>
+    <span>work </span><br>
+  <a href = "#" id="minusWork">
+    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+  </a>
+</div>
+
+
+
+<div class="inner" id="circle">
+  <h1><a href = "#" id="play" ><!--<i  class="fa fa-play" aria-hidden="true"></i>-->start</a></h1>
+  <p id=currentStatus>work time </p>
+    <h1 id="allTime"><span id="time">25</span><span id="seconds">:00</span></h1>
+  <h1><a href="#" id="reset">reset</a></h1>
+</div>
+
+
+
+  <div class="inner" id = "breakDiv">
+  <a href = "#" id="plusBreak">
+    <i class="fa fa-sort-asc" aria-hidden="true"></i>
+  </a>
+<br> <span id="breakTime">5</span>:00
+   <br> <span>break </span><br>
+  <a href = "#" id="minusBreak">
+   <i class="fa fa-sort-desc" aria-hidden="true"></i>
+  </a>
+</div>
+
+
+</div>
